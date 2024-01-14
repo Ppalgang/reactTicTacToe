@@ -10,7 +10,7 @@ import { useState } from "react";
 import JoinGame from "./components/JoinGame";
 
 function App() {
-  const api_key = "xycjnpn7kcht";
+  const api_key = "*";
 
   const cookies = new Cookies();
 
