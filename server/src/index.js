@@ -11,9 +11,9 @@ app.use(cors());
 app.use(express.json());
 
 // Stream Chat API anahtarları (Aktif çalışıyor.)
-const api_key = "xycjnpn7kcht";
+const api_key = "*";
 const api_secret =
-  "e5845w8emd7858sthb65g3djtre6a4r2z32dsw9aa79xwamb8qtsu2avghjy3bbe";
+  "*";
 
 // Stream Chat istemcisini oluştur
 const serverClient = StreamChat.getInstance(api_key, api_secret);
